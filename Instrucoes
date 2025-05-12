@@ -1,0 +1,4 @@
+Crie o projeto com: dotnet new console -n backtracking 
+Entre na pasta com: cd .\backtracking\ 
+Cole o codigo no arquivo: program.cs 
+Rode com: dotnet run
