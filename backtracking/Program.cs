@@ -8,8 +8,8 @@ namespace backtracking
     {
         static void Main(string[] args)
         {
-            string localSaida = "1";//local onde o percurso ira começar
-            string localAlvo = "2";//local onde deve tentar chegar
+            string localSaida = "9";//local onde o percurso ira começar
+            string localAlvo = "b";//local onde deve tentar chegar
 
             Console.Clear();
 
@@ -17,7 +17,7 @@ namespace backtracking
             List<Tile> visitados = new List<Tile>();//tiles já visitados, inicialmente vazia
 
             Console.WriteLine("Caminho encontrado:");
-            Console.WriteLine(encontrarCaminho(encontrarTile(listaTiles, localAlvo), localSaida, visitados));
+            Console.WriteLine(encontrarCaminho(encontrarTile(listaTiles, localSaida), localAlvo, visitados));
         }
 
         static string encontrarCaminho(Tile tileAtual, String tileAlvo, List<Tile> tilesAnteriores)
