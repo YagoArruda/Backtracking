@@ -4,13 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        int[] listaNumeros = { 1, 7, 4, 3, 5, 6, 9, 8, 10, 2};
+        int[] listaNumeros = { 1, 7, 4, 3, 5, 6, 9, 8, 10, 2 };
         int numA = 1;
         int numB = 2;
 
         int compsA = 0;
         int compsB = 0;
 
+        Console.WriteLine($"NumA: {numA} ||| NumB: {numB}");
         Console.WriteLine("Distancia sem ordenar: " + calcularDistancia(numA, numB, listaNumeros, ref compsA, ref compsB) + " | " + (compsA + compsB) + " comparações");
         compsA = 0;
         compsB = 0;
@@ -75,4 +76,5 @@ class Program
         }
         return -1;
     }
+
 }
