@@ -1,6 +1,8 @@
 # Backtracking
 Repositorio para estudo de backtracking
 
+***Adendo do problema: esqueci de colocar no arquivo 
+ A ideia é que o código seja capaz de encontrar um caminho para chegar uma rua saindo de outra, não é o melhor caminho, mas uma das possibilidades 
 
 (Ignore esse processo se for clonar o repositório do github)
 Crie o projeto com: dotnet new console -n backtracking <br>
