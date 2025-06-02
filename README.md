@@ -32,3 +32,17 @@ Formato entrada (exemplo):
 
 
 *O resultado vai ser um dos caminhos possíveis, mas não o melhor possivel
+
+-------------------------------------
+
+```dotnet new console -n NomeDoProjeto```
+
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
